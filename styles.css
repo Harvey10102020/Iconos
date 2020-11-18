@@ -1,0 +1,44 @@
+.container-ul li {
+    padding-left: 25px;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 2em;
+    margin-left: 50px;
+}
+
+.container-ul li:hover {
+    color: rgb(69, 127, 235);
+    cursor: pointer;
+}
+
+.container-ul li::marker {
+    font-family: "Font Awesome 5 Free";
+    content: "\f2b9";
+    font-weight: 900;
+    font-size: 2em;
+    color: red;
+}
+
+.container-ul li:nth-child(3)::marker {
+    content: "\f5fd";
+    font-weight: 900;
+    font-size: 2em;
+    color: rgb(206, 209, 29);
+}
+
+.container-ul li:nth-child(5)::marker {
+    content: "\f228";
+    font-weight: 900;
+    font-size: 2em;
+    color: rgb(209, 29, 74);
+}
+
+.container-ul li:nth-child(7)::marker {
+    content: "\f508";
+    font-weight: 900;
+    font-size: 2em;
+    color: rgb(47, 29, 209);
+}
+
+.container-ul span {
+    vertical-align: super;
+}
